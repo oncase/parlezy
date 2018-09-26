@@ -11,5 +11,7 @@ CREATE TABLE fact_sabatinas
 , speakerName varchar(100)
 , startTime varchar(12)
 , endTime varchar(12)
+, speaker_type VARCHAR(20)
+, final_s DOUBLE PRECISION
 )
 ;
